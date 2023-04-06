@@ -1,0 +1,27 @@
+WHEN GIT REMOTE FAILS
+
+ROOT cause: 
+	git remote add origin git@github.com:The-BI-Developer/taimour.git
+	git push -origin master #this will fail due to authentication failure
+	ERROR: git@github.com: Permission denied (publickey).	
+	
+Checking CONNECTION:
+	ssh -T git@github.com
+Starting SSH-AGENT
+	eval "$(ssh-agent -s)"
+
+
+1. Generate a new SSH key:
+	ssh-keygen -t ed25519 -C "abdul.w1337@gmail.com"
+	
+	eval "$(ssh-agent -s)" #start ssh agent
+	ssh-add ~/.ssh/id_ed25519 #add ssh private key to ssh-agent
+
+2. Adding key to GITHUB account
+	cat ~/.ssh/id_ed25519.pub #copy contents
+	
+	Add SSH key in settings of github account
+
+	
+
+

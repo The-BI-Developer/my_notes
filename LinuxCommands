@@ -1,0 +1,7 @@
+Nautilus
+	Equivalent of file explorer
+	e.g. Nautilus <some-file-path>
+	
+Path for desktops
+	/var/lib/snapd/desktop/application/ 
+	/usr/share/applications/
