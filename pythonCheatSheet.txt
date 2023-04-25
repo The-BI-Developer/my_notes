@@ -1,0 +1,27 @@
+TERMINAL COMMANDS
+
+Virtual enviro
+
+- python3 -m venv <name> #creating a virtual environment
+
+-source venv/bin/activate OR venv/Scripts/activate #activates virtual environment
+
+- deactivate #resets path variables
+
+Flask
+
+- export/set FLASK_APP=my_file.py THEN flask run
+- export FLASK_DEBUG=1
+
+- from <file> import app
+  app.url_mapi
+
+- creating APP: app = Flask(__name__) was never __main__
+
+JUPYTER
+%%bash #magic command
+<write your normal terminal commands>
+
+
+JINJA
+{{name}}
