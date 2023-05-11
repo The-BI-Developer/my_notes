@@ -6,3 +6,7 @@ WITH X AS ()
 
 #CONVERTING DATETIME TO DATE
  CONVERT(DATE, GETDATE()) date;
+
+
+@entity AS VARCHAR --output gives all three letter entity names
+@entity AS VARCHAR(max) --gives the correct entity query
