@@ -1,0 +1,15 @@
+#CREATE A PROJECT FIRST
+dotnet new console -o <directory_name> //note -o is output and new console is application type e.g. can be replaced by a web app
+
+1. navigate to app directory and then code . to set app as workspace
+2. edit the program.cs (rename if you like) to whatever is desired
+
+For beginner:
+1. stick to one .cs file
+2. don't worry about other created folders by .net
+
+#NET ANALOGY
+.net is the theatre and c# is the script
+
+
+
