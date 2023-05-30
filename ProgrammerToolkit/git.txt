@@ -72,6 +72,6 @@ If you've already created a fresh commit, you'll want to use "git rebase -i" to 
 			fix - fix a bug
 			chore - for everything else
 
-	
-
+#CLONED ACCINDENTLY USING HTTPS INSTEAD OF SSH LEADING TO AUTH ERRORS	
+git remote set-url origin git@github.com:The-BI-Developer/<MY-REPO>.git
 
