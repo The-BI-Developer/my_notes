@@ -75,3 +75,21 @@ If you've already created a fresh commit, you'll want to use "git rebase -i" to 
 #CLONED ACCINDENTLY USING HTTPS INSTEAD OF SSH LEADING TO AUTH ERRORS	
 git remote set-url origin git@github.com:The-BI-Developer/<MY-REPO>.git
 
+
+
+#GIT TAGGING
+git tag #view tags
+git show <my_tag> #show info on tag
+git tag -a <my_tag> -m "" #annotated
+git tag <my_tag> #lightweight
+git tag -a <my_tag> commit_checksum
+
+git checkout <tag> #results in detached head state
+
+git tag --delete <my_tag>
+
+#tags can only reference checksums = equal to release in github (diff terminology)
+
+
+
+

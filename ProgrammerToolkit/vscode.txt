@@ -37,4 +37,5 @@
 }
 
 
-
+#setting workspace folder using terminal
+code [-r] /path_to_folder
