@@ -1,0 +1,16 @@
+required:
+* domain name e.g. xxx.com
+* web hosting account | repos your web files
+e.g. siteground or hostinger, bluehost
+
+free? why - the costs are:
+*web hosting - house
+*domain name - door
+
+seedprod - customise theme - gives drap and drop customisation experience
+
+save draft - top navbar
+
+three dots {more options} = visual editor + code editor (ctrl shift alt m)
+ctrl shift \ zen mode {disables navbar}
+
