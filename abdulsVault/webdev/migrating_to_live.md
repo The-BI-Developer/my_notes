@@ -1,4 +1,4 @@
-# Migrating wordpress site - local 2 host
+#  Migrating wordpress site - local 2 host
 ## create empty database at live host
 
 ## modify wp-config.php for these
